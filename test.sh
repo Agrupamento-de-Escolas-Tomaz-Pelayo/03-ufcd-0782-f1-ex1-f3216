@@ -1,7 +1,7 @@
 echo "A executar os testes ..."
 echo
 
-output=$(./a.out)
+output=$(./hello.exe)
 expected_output="Olá Mundo!"
 
 if [ $? -eq 0 ] ; then
